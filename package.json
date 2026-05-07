@@ -1,6 +1,6 @@
 {
   "name": "@byspec/numbers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spec-anchored numeric test cases — IEEE 754 and ECMAScript",
   "type": "module",
   "exports": {

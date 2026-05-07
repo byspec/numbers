@@ -36,8 +36,8 @@ export const parsing = {
         spec: "ECMAScript 2024 §7.1.4.1",
         rule: "hexadecimal-literal",
         tags: ["hex", "sign", "json-incompatible", "strict-parser-reject"],
-        value: -16,
-        note: "Negative hex literal; Number() accepts it"
+        value: NaN,
+        note: "Negative hex strings are not valid Numeric Strings per ES spec"
       }
     },
     {
