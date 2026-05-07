@@ -1,0 +1,55 @@
+{
+  "name": "@byspec/numbers",
+  "version": "0.1.0",
+  "description": "Spec-anchored numeric test cases — IEEE 754 and ECMAScript",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./ieee754": "./src/ieee754/index.js",
+    "./ecmascript": "./src/ecmascript/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./src/index.d.ts"
+      ],
+      "ieee754": [
+        "./src/ieee754/index.d.ts"
+      ],
+      "ecmascript": [
+        "./src/ecmascript/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "devDependencies": {
+    "jasmine": "^5.0.0"
+  },
+  "scripts": {
+    "test": "jasmine 'spec/**/*.spec.js'"
+  },
+  "keywords": [
+    "test",
+    "ieee754",
+    "ecmascript",
+    "number"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byspec/numbers"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Amit Gupta (https://solothought.work/)",
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/byspec"
+    }
+  ]
+}
